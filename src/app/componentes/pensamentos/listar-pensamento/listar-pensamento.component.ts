@@ -3,6 +3,7 @@ import { RouterLink } from "@angular/router";
 import { PensamentoComponent } from "../pensamento/pensamento.component";
 import { NgForOf } from '@angular/common';
 import { Pensamento } from '../pensamento';
+import { PensamentoService } from '../pensamento.service';
 
 @Component({
   selector: 'app-listar-pensamento',
@@ -16,10 +17,10 @@ export class ListarPensamentoComponent implements OnInit {
 
   listaPensamentos: Pensamento[] = [];
 
-  constructor() { }
+  constructor(private service: PensamentoService) { }
 
   ngOnInit(): void {
-
+      this.service.listar();
   }
 
 }
