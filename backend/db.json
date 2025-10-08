@@ -2,8 +2,8 @@
   "pensamentos": [
     {
       "id": "1",
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Dani",
+      "conteudo": "Que bom que vc veio 34",
+      "autoria": "Dani 2",
       "modelo": "modelo1"
     },
     {
@@ -11,12 +11,6 @@
       "conteudo": "Que bom que vc veio 2",
       "autoria": "Dani 2",
       "modelo": "modelo2"
-    },
-    {
-      "id": "3",
-      "conteudo": "Que bom que vc veio 3",
-      "autoria": "Dani 3",
-      "modelo": "modelo3"
     },
     {
       "id": "59e2",
